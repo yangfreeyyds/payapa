@@ -1,0 +1,61 @@
+//api接口说明文档
+
+{
+	"passengers": [{
+		"code": "ADT",//成人乘客
+		"count": 1
+	}, {
+		"code": "CHD",//儿童乘客
+		"count": 0
+	}, {
+		"code": "INF",//婴儿乘客
+		"count": 0
+	}, {
+		"code": "MOP",//其他乘客
+		"count": 0
+	}],
+	"routes": [{
+		"fromAirport": "DMK",//出发地
+		"toAirport": "CEI",//到达地
+		"departureDate": "2024-04-26",//真正开飞的日期
+		//日期范围
+		"startDate": "2024-04-24",
+		"endDate": "2024-04-30"
+	}, {
+		"fromAirport": "CEI",
+		"toAirport": "DMK",
+		"departureDate": "2024-04-27",
+		"startDate": "2024-04-24",
+		"endDate": "2024-04-30"
+	}],
+	"currency": "THB",//货币类型
+	"fareTypeCategories": null,//票价类型类别
+	"isManageBooking": false,//是否为管理预订
+	"languageCode": "zh-cn"
+}
+{
+	"passengers": [{
+		"code": "ADT",
+		"count": 1
+	}, {
+		"code": "CHD",
+		"count": 1
+	}, {
+		"code": "INF",
+		"count": 1
+	}, {
+		"code": "MOP",
+		"count": 0
+	}],
+	"routes": [{
+		"fromAirport": "DMK",
+		"toAirport": "CEI",
+		"departureDate": "2024-4-28",
+		"startDate": "2024-4-28",
+		"endDate": "2024-5-2"
+	}],
+	"currency": "THB",
+	"fareTypeCategories": null,
+	"isManageBooking": false,
+	"languageCode": "zh-cn"
+}
